@@ -1,10 +1,16 @@
-﻿namespace knightmoves;
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace knightmoves;
 public class JobOpenings
 {   
-    // Add your code here
+    public string FirstName = "Samuel";
+
+    public string JobTitle = "Animal Behavior Specialist";
+
+    public string City = "Seward";
 
     public string PrintOpening(){
-        //Add your code here
-        return "";
+    
+        return "FirstName , JobTitle , City , and a new line";
     }
 }
