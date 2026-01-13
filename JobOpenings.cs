@@ -11,6 +11,6 @@ public class JobOpenings
 
     public string PrintOpening(){
     
-        return $@"{FirstName}, {JobTitle}, {City}, and a new line";
+        return $@"{FirstName}, {JobTitle}, {City}, And A New Line";
     }
 }
